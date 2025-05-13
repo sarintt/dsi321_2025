@@ -49,7 +49,7 @@ async def scrape_flow():
 
     async def scrape_with_limit(category: str, tag: str, url: str):
         async with semaphore:
-            return await scrape_tag(category=category, tag=tag, tag_url=url, max_scrolls=2)
+            return await scrape_tag(category=category, tag=tag, tag_url=url, max_scrolls=1)
         
     task_list = [
         (category, tag, url)

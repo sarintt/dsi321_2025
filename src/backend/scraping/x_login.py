@@ -24,7 +24,7 @@ def validate_session(playwright):
     try:
         page.goto(url)
         logger.debug("Page loaded. Waiting for initial tweets...")
-        page.wait_for_selector("article", timeout=30000)
+        page.wait_for_selector("article")
         logger.info("Valid session detected.")
         return True
     except Exception as e:
@@ -54,6 +54,6 @@ def login_and_save_session(playwright):
 
 if __name__ == "__main__":
     with sync_playwright() as p:
-        if not os.path.exists(AUTH_TWITTER) or not validate_session(p):
-            login_and_save_session(p)
-            validate_session(p)
+        # if not os.path.exists(AUTH_TWITTER) or not validate_session(p):
+        login_and_save_session(p)
+            # validate_session(p)

@@ -8,6 +8,11 @@ from config.path_config import lakefs_s3_path
 
 st.title('Tweet Sentiment Analysis')
 
+# Widgets shared by all the pages
+st.sidebar.selectbox("Foo", ["A", "B", "C"], key="foo")
+st.sidebar.checkbox("Bar", key="bar")
+
+
 def data_from_lakefs(lakefs_endpoint: str = "http://localhost:8001/"):
     storage_options = {
         "key": os.getenv("ACCESS_KEY"),
