@@ -1,7 +1,5 @@
 # DSI321
-# CI Status
-|  | |
-| - | :- |
+
 # Twitter Scraping & Analysis Pipeline
 A modular data pipeline that automates scraping tweets from Twitter (X), validates and stores data in LakeFS, orchestrates scheduled flows with Prefect, and visualizes insights through an interactive Streamlit dashboard. Built for flexibility, automation, and real-world data analysis.
 
