@@ -2,20 +2,20 @@
 # CI Status
 |  | |
 | - | :- |
-| Security | [![Bandit](https://github.com/Thanaraklee/dsi321_2025/actions/workflows/bandit.yml/badge.svg?branch=main)](https://github.com/Thanaraklee/dsi321_2025/actions/workflows/bandit.yml) [![CodeQL](https://github.com/Thanaraklee/dsi321_2025/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Thanaraklee/dsi321_2025/actions/workflows/github-code-scanning/codeql) |
-| Dataset Validation | [![Validation](https://github.com/Thanaraklee/dsi321_2025/actions/workflows/validation.yml/badge.svg)](https://github.com/Thanaraklee/dsi321_2025/actions/workflows/validation.yml) |
+# Twitter Scraping & Analysis Pipeline
+A modular data pipeline that automates scraping tweets from Twitter (X), validates and stores data in LakeFS, orchestrates scheduled flows with Prefect, and visualizes insights through an interactive Streamlit dashboard. Built for flexibility, automation, and real-world data analysis.
 
 # Project Status
 | Module / Tool | Status |
 | - | :-: |
-| Modern Logging (Logging, Rich) | ✅ |
-| Web Scraping |✅|
-| Database(LakeFS) | ✅ |
-| Data Validation (Pydantic) | ✅ |
-| Orchestration (Prefect) Part 1: All tweets|✅|
-| Orchestration (Prefect) Part 2: Only new tweets|✅|
-| ML (Word Cloud)|✅|
-| Web Interface (Streamlit) |   |
+| Modern Logging (Logging, Rich) | Check |
+| Web Scraping | Check |
+| Database(LakeFS) | Check |
+| Data Validation (Pydantic) | Check |
+| Orchestration (Prefect) Part 1: All tweets| Check |
+| Orchestration (Prefect) Part 2: Only new tweets| Check |
+| ML (Word Cloud)| Check |
+| Web Interface (Streamlit) | Check |
 
 # Project Structure
 ```
