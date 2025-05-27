@@ -8,6 +8,13 @@ from src.backend.ml.config_ml import instruction, prompt_template
 import uvicorn
 import pandas as pd
 from src.frontend.config_streamlit import random_color
+import sys
+import os
+
+sys.path.append(os.path.abspath("src"))
+
+from frontend import config_streamlit
+
 
 load_dotenv()
 
