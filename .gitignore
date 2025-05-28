@@ -3,6 +3,7 @@ tmp/
 
 data/from_prefect/
 data/lakefs
+data/datatest.parquet/
 
 src/backend/config/
 # Byte-compiled / optimized / DLL files
