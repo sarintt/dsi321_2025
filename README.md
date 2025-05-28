@@ -32,6 +32,16 @@ Below is the expected schema of the processed dataset (`data.parquet`):
 | month        | int64            |
 | day          | int64            |
 
+## Schema Validation
+
+| Check                             | Result   |
+|----------------------------------|----------|
+| Schema matches original format   | True  |
+| Number of records > 1000         | True  |
+| Check data duplicate records                | 0     |
+| Null values in all columns       | 0     |
+| Data types are consistent        | True  |
+
 # Project Structure
 ```
 .
