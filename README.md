@@ -15,6 +15,23 @@ A modular data pipeline that automates scraping tweets from Twitter (X), validat
 | ML (Word Cloud)| Check |
 | Web Interface (Streamlit) | Check |
 
+# 📊 Data Schema
+
+This project enforces a strict schema and data validation protocol to ensure data consistency and integrity.  
+Below is the expected schema of the processed dataset (`data.parquet`):
+
+| Column       | Data Type        |
+|--------------|------------------|
+| category     | string[python]   |
+| tag          | string[python]   |
+| username     | string[python]   |
+| tweetText    | string[python]   |
+| postTimeRaw  | datetime64[ns]   |
+| scrapeTime   | datetime64[ns]   |
+| year         | int64            |
+| month        | int64            |
+| day          | int64            |
+
 # Project Structure
 ```
 .
