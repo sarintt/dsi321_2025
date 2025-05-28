@@ -1,6 +1,9 @@
 config/auth/
 tmp/
-data/
+data/from_prefect/
+data/lakefs
+
+
 src/backend/config/
 # Byte-compiled / optimized / DLL files
 __pycache__/
